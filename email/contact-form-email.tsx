@@ -44,9 +44,6 @@ export default function ContactFormEmail({
                 <strong>Email:</strong> {senderEmail}
               </Text>
               <Hr />
-              <Text>
-                <strong>Comments:</strong>
-              </Text>
             </Section>
           </Container>
         </Body>
