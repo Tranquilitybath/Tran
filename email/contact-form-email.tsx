@@ -16,12 +16,14 @@ type ContactFormEmailProps = {
   fullName: string;
   phone: string;
   senderEmail: string;
+  interest: string;
 };
 
 export default function ContactFormEmail({
   fullName,
   phone,
   senderEmail,
+  interest,
 }: ContactFormEmailProps) {
   return (
     <Html>
@@ -42,6 +44,9 @@ export default function ContactFormEmail({
               </Text>
               <Text>
                 <strong>Email:</strong> {senderEmail}
+              </Text>
+              <Text>
+                <strong>Interest:</strong> {interest}
               </Text>
               <Hr />
             </Section>
